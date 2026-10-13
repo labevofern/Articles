@@ -96,10 +96,6 @@ Dimorphic-ferns/
 
 The code is publicly shared at this stage to document the analytical procedures. The primary input matrix and generated intermediate objects are not included. **The public repository alone is therefore not presently sufficient to rerun all analyses.**
 
-If needed for editorial assessment or peer review, underlying data and materials may be provided **confidentially to editors and reviewers**, subject to the journal's applicable policies. Such confidential provision should not be confused with public data release.
-
-Please consult the [*New Phytologist* author guidelines](https://nph.onlinelibrary.wiley.com/hub/journal/14698137/about/author-guidelines) for current data availability and archiving requirements. The intended post-acceptance release should be reconciled with the journal's final requirements before submission.
-
 ## Reproducibility and execution
 
 All analyses are written in **R** and can be sourced from **RStudio**. Principal dependencies include `ape`, `caper`, `corHMM`, `dplyr`, `ftolr`, `ggplot2`, `openxlsx`, `patchwork`, `phylolm`, `phytools`, `rgbif`, `scales`, `stringr`, `tidyr`, and `viridisLite`. The batch runner checks packages and includes instructions to install [`ftolr`](https://github.com/fernphy/ftolr).
